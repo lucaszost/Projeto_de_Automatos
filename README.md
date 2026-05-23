@@ -6,12 +6,6 @@ O sistema realiza análise textual automatizada em múltiplos formatos de arquiv
 
 ---
 
-# Documentação do Projeto
-
-[https://docs.google.com/document/d/1U1DlkcOD6fvdz-Yflqz7a3yBeY5ifAGd4aglFRhfpUQ/edit?usp=sharing](https://docs.google.com/document/d/1U1DlkcOD6fvdz-Yflqz7a3yBeY5ifAGd4aglFRhfpUQ/edit?usp=sharing)
-
----
-
 # Objetivo
 
 O objetivo do projeto é implementar um sistema de inspeção textual baseado em Expressões Regulares capaz de:
@@ -34,7 +28,7 @@ O objetivo do projeto é implementar um sistema de inspeção textual baseado em
 Projeto-de-automatos/
 │
 ├── Artigo/
-|   └── main.tex
+|   └── artigo.pdf
 |
 ├── assets/
 │   ├── 01_atendimentos_bagunçados.txt
@@ -43,9 +37,18 @@ Projeto-de-automatos/
 │   └── 04_exportacao_suja.csv
 │
 ├── resultados_json/
-│
+│   ├── 01_atendimentos_bagunçados.json
+|   ├── 02_logs_mistos.json
+|   ├── 03_mensagens_chat.json
+|   ├── 04_exportacao_suja.json
+|   └── estatisticas.json
+|
+├── README.md
+├── analyzer.py
+├── config.py
 ├── main.py
-└── README.md
+├── stats.py
+└── validators.py
 ```
 
 ---
