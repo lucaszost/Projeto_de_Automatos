@@ -489,26 +489,6 @@ resultados_json/estatisticas.json
 
 ---
 
-# Requisitos Atendidos pelo Sistema
-
-| Requisito                        | Status |
-| -------------------------------- | ------ |
-| Ler todos os arquivos fornecidos | \(\checkmark \)      |
-| Contabilizar linhas              | \(\checkmark \)      |
-| Identificar tipo do conteúdo     | \(\checkmark \)      |
-| Detectar Chat                    | \(\checkmark \)      |
-| Detectar Logs                    | \(\checkmark \)      |
-| Detectar CSV                     | \(\checkmark \)      |
-| Detectar Texto Livre             | \(\checkmark \)      |
-| Apresentar amostras              | \(\checkmark \)      |
-| Extrair padrões textuais         | \(\checkmark \)      |
-| Validar padrões                  | \(\checkmark \)      |
-| Gerar JSON                       | \(\checkmark \)      |
-| Gerar estatísticas               | \(\checkmark \)      |
-| Detectar inconsistências CSV     | \(\checkmark \)      |
-
----
-
 # Como Executar
 
 ## Requisitos
@@ -532,7 +512,7 @@ Colocar os arquivos dentro de:
 ### 2. Executar
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 ---
