@@ -37,11 +37,6 @@ Projeto-de-automatos/
 │   └── 04_exportacao_suja.csv
 │
 ├── resultados_json/
-│   ├── 01_atendimentos_bagunçados.json
-|   ├── 02_logs_mistos.json
-|   ├── 03_mensagens_chat.json
-|   ├── 04_exportacao_suja.json
-|   └── estatisticas.json
 |
 ├── README.md
 ├── analyzer.py
